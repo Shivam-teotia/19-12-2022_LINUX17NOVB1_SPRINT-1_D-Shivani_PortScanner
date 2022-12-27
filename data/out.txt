@@ -1,0 +1,110 @@
+Ip:
+    Forwarding: 2
+    51906 total packets received
+    1 with invalid addresses
+    0 forwarded
+    0 incoming packets discarded
+    51903 incoming packets delivered
+    39414 requests sent out
+    20 outgoing packets dropped
+Icmp:
+    47 ICMP messages received
+    0 input ICMP message failed
+    ICMP input histogram:
+        destination unreachable: 47
+    62 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 62
+IcmpMsg:
+        InType3: 47
+        OutType3: 62
+Tcp:
+    212 active connection openings
+    0 passive connection openings
+    2 failed connection attempts
+    10 connection resets received
+    1 connections established
+    49162 segments received
+    37169 segments sent out
+    24 segments retransmitted
+    7 bad segments received
+    68 resets sent
+Udp:
+    2449 packets received
+    62 packets to unknown port received
+    0 packet receive errors
+    2177 packets sent
+    0 receive buffer errors
+    0 send buffer errors
+    IgnoredMulti: 183
+UdpLite:
+TcpExt:
+    95 TCP sockets finished time wait in fast timer
+    87 delayed acks sent
+    Quick ack mode was activated 15 times
+    46092 packet headers predicted
+    521 acknowledgments not containing data payload received
+    842 predicted acknowledgments
+    TCPLostRetransmit: 10
+    1 retransmits in slow start
+    TCPTimeouts: 24
+    TCPBacklogCoalesce: 416
+    10 connections reset due to early user close
+    TCPRcvCoalesce: 14497
+    TCPChallengeACK: 4
+    TCPSYNChallenge: 7
+    TCPSpuriousRtxHostQueues: 1
+    TCPAutoCorking: 10
+    TCPSynRetrans: 22
+    TCPOrigDataSent: 1128
+    TCPHystartTrainDetect: 2
+    TCPHystartTrainCwnd: 34
+    TCPACKSkippedChallenge: 3
+    TCPKeepAlive: 299
+    TCPDelivered: 1318
+    TcpTimeoutRehash: 24
+IpExt:
+    InMcastPkts: 412
+    OutMcastPkts: 78
+    InBcastPkts: 183
+    InOctets: 145113836
+    OutOctets: 1962633
+    InMcastOctets: 29221
+    OutMcastOctets: 7969
+    InBcastOctets: 17478
+    InNoECTPkts: 109216
+MPTcpExt:
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 192.168.248.129:52612   34.107.221.82:80        TIME_WAIT  
+tcp        0      0 192.168.248.129:52610   34.107.221.82:80        TIME_WAIT  
+tcp        0      0 192.168.248.129:40406   34.213.140.56:443       ESTABLISHED
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
+Active Internet connections (servers and established)
+tcp        0      0 192.168.248.129:40666   34.120.208.123:443      ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:57094   34.117.237.239:443      ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:40406   34.213.140.56:443       ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:57190   34.120.115.102:443      ESTABLISHED 8647/firefox        
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
+Active Internet connections (servers and established)
+tcp        0      0 192.168.248.129:40666   34.120.208.123:443      ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:57094   34.117.237.239:443      ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:40406   34.213.140.56:443       ESTABLISHED 8647/firefox        
+tcp        0      0 192.168.248.129:57190   34.120.115.102:443      ESTABLISHED 8647/firefox        
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 192.168.248.129:52612   34.107.221.82:80        TIME_WAIT  
+tcp        0      0 192.168.248.129:57094   34.117.237.239:443      ESTABLISHED
+tcp        0      0 192.168.248.129:52610   34.107.221.82:80        TIME_WAIT  
+tcp        0      0 192.168.248.129:40406   34.213.140.56:443       ESTABLISHED
+tcp        0      0 192.168.248.129:57190   34.120.115.102:443      ESTABLISHED
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         _gateway        0.0.0.0         UG        0 0          0 ens33
+link-local      0.0.0.0         255.255.0.0     U         0 0          0 ens33
+192.168.248.0   0.0.0.0         255.255.255.0   U         0 0          0 ens33
